@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Black Signature PERSONAL USE ONLY";
+    src: url('./font/BlackSignaturePersonalUseOnlyRegular.otf');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* шапка */
+header {
+    width: 100%;
+    padding: 1px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white; 
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo h1 {
+    font-size: 24px;  /* "Travel" */
+    font-weight: bold;
+    color: #9154ff;
+}
+.logo h1 span {
+    color: #434343; /* "Talking" */
+    font-family: "Black Signature PERSONAL USE ONLY" ;
+}
+
+
+nav.menu ul {
+    list-style: none;
+    display: flex;
+}
+nav.menu ul li {
+    margin-left: 20px;
+}
+nav.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    transition: color 0.3s;
+}
+nav.menu ul li a:hover {
+    color: #9154ff; /* цвет при наведении */
+}
+
+
+.icons a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+/* иконка поиска */
+.search-icon::before {
+    font-size: 20px;
+    background-image: url("https://sun9-23.userapi.com/impg/SLR15QMtwu4XtK8ElQ159YkB9iM1aYw3Jw9rEg/Cx05TqUsAK4.jpg?size=44x44&quality=96&sign=f73b7746b6414da474f953794af0b795&type=album")
+}
+/* иконка пользователя */
+.user-icon::before {
+    background-image: url("https://sun9-64.userapi.com/impg/r4xGJFR1jAWgjYg24XSSTmBUI40w5mUIbX2OvQ/KxqpeMMW6Lo.jpg?size=48x48&quality=96&sign=89c9cd8fae0ee5c6a8bcc293a351d578&type=album://sun9-23.userapi.com/impg/SLR15QMtwu4XtK8ElQ159YkB9iM1aYw3Jw9rEg/Cx05TqUsAK4.jpg?size=44x44&quality=96&sign=f73b7746b6414da474f953794af0b795&type=album")
+}
+
+
+
+/* основное */
+.hero-section {
+    background-image: url('https://sun9-47.userapi.com/impg/S7BDj0eOk2UlkHfnBQ8oEvrQx-DEEl6CbiXMPQ/bKbnbCBb-hc.jpg?size=2560x1031&quality=96&sign=4668edc7d1337c49cb2aa48a33ce7d66&type=album'); /* Замените на реальный путь */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 800px;
+}
+
+h1 {
+    font-family: Changa One;
+    font-size: 73px;
+    font-weight: 400;
+    line-height: 84px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #434343;
+}
+
+h1 span {
+    color: #8A53FF; /* "talk" */
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #434343;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.story-btn {
+    background-color: #9154ff;
+    color: white;
+    margin-right: 10px;
+    width: 165.17px;
+    height: 46px;
+    padding: 13.5px 9.52px 13.5px 9.52px;
+}
+
+.highlights-btn {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+
