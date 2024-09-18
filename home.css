@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Black Signature PERSONAL USE ONLY";
+    src: url('./src/font/BlackSignaturePersonalUseOnlyRegular.otf');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* шапка */
+header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100; 
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.logo-talking {
+    font-family: "Black Signature PERSONAL USE ONLY"; /* "Talking" */
+    font-size: 20px;
+    color: #434343;
+    margin: 0; 
+    line-height: 1.2; 
+    color: #434343;
+}
+.logo h1 {
+    font-size: 30px; /* "Travel" */
+    font-weight: bold;
+    color: #9154ff;
+    margin: 0; 
+    line-height: 1.2;
+}
+
+
+.menu-icons-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto; 
+    justify-content: flex-end;
+}
+.menu {
+    flex-grow: 1;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav.menu ul {
+    list-style: none;
+    display: flex;
+}
+nav.menu ul li {
+    margin-left: 10px;
+}
+nav.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    transition: color 0.3s;
+}
+nav.menu ul li a:hover {
+    color: #9154ff; /* цвет при наведении */
+}
+
+
+.icons {
+    display: flex;
+    gap: 8px;  
+}
+.icons a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+/* иконка поиска */
+.search-icon::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("src/icons/search.jpg");
+    background-size: cover;
+}
+/* иконка пользователя */
+.user-icon::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("src/icons/user.jpg"); 
+    background-size: cover;
+}
+
+
+
+/* основное */
+.hero-section {
+    background-image: url('src/image/background.jpg'); 
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.content {
+    max-width: 800px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: Changa One;
+    font-size: 73px;
+    font-weight: 400;
+    line-height: 84px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #434343;
+}
+
+h1 span {
+    color: #8A53FF; /* "talk" */
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #434343;
+}
+
+
+
+.buttons {
+    margin-top: 40px;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.story-btn {
+    background-color: #9154ff;
+    color: white;
+    margin-right: 10px;
+    width: 165.17px;
+    height: 46px;
+    padding: 13.5px 9.52px 13.5px 9.52px;
+}
+.highlights-btn::before {
+    content: "";
+    position: absolute;
+    left: 10px; 
+    width: 24px;  
+    height: 24px; 
+    background-image: url('src/icons/play.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.highlights-btn {
+    position: relative;
+    padding-left: 40px; 
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
