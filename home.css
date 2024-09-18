@@ -1,98 +1,56 @@
 * {
     margin: 0;
 }
-
 @font-face {
     font-family: "Black Signature PERSONAL USE ONLY";
     src: url('./src/font/BlackSignaturePersonalUseOnlyRegular.otf');
 }
+@font-face {
+    font-family: "ChangaOne-Regular";
+    src: url('./src/font/ChangaOne-Regular.ttf');
+}
+
 
 body {
     font-family: 'Roboto', sans-serif;
 }
-
 /* шапка */
 header {
-    width: 100%;
-    padding: 10px 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between; 
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100; 
-}
-.logo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
+    align-items: center; 
+    padding: 0 50px; 
 }
 .logo-talking {
     font-family: "Black Signature PERSONAL USE ONLY"; /* "Talking" */
     font-size: 20px;
-    color: #434343;
-    margin: 0; 
-    line-height: 1.2; 
     color: #434343;
 }
 .logo h1 {
     font-size: 30px; /* "Travel" */
     font-weight: bold;
     color: #9154ff;
-    margin: 0; 
     line-height: 1.2;
 }
 
 
-.menu-icons-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: auto; 
-    justify-content: flex-end;
-}
-.menu {
-    flex-grow: 1;
-}
-
 .menu ul {
     display: flex;
+    align-items: center;
     gap: 20px; 
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
-
-
-nav.menu ul {
-    list-style: none;
-    display: flex;
-}
-nav.menu ul li {
-    margin-left: 10px;
-}
-nav.menu ul li a {
+.menu li a {
     text-decoration: none;
     font-size: 18px;
     color: #000;
-    transition: color 0.3s;
 }
 nav.menu ul li a:hover {
     color: #9154ff; /* цвет при наведении */
 }
 
 
-.icons {
-    display: flex;
-    gap: 8px;  
-}
-.icons a {
-    margin-left: 10px;
-    text-decoration: none;
-}
+
 /* иконка поиска */
 .search-icon::before {
     content: "";
@@ -132,37 +90,31 @@ nav.menu ul li a:hover {
 }
 
 h1 {
-    font-family: Changa One;
+    font-family: "ChangaOne-Regular";
     font-size: 73px;
     font-weight: 400;
     line-height: 84px;
-    letter-spacing: -0.01em;
     text-align: left;
     color: #434343;
 }
-
 h1 span {
     color: #8A53FF; /* "talk" */
 }
-
 p {
     margin-top: 20px;
-    font-size: 1.2em;
+    font-size: 20px;
     color: #434343;
 }
-
 
 
 .buttons {
     margin-top: 40px;
 }
-
 button {
     padding: 15px 30px;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 15px;
 }
 .story-btn {
     background-color: #9154ff;
