@@ -1,0 +1,67 @@
+
+
+.featured-destination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.destination-image {
+    width: 540px;
+    height: 340px;
+    background-image: url('src/image/featured_destination.jpg');
+    margin-left: 57px;
+    background-size: cover;
+    background-position: center;
+}
+
+.destination-content {
+    max-width: 500px;
+    margin-left: 40px;
+    margin-right: 200px;
+}
+
+.destination-content h2 {
+    font-size: 18px;
+    color: #8A53FF;
+    margin-bottom: 10px;
+}
+
+.destination-content h3 {
+    font-family: "ChangaOne-Regular";
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #434343;
+}
+
+.destination-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.watch-btn {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 10px 5px 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.watch-btn:hover {
+    background-color: #8A53FF;
+}
+.play-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url('src/icons/video_play.png');
+    background-size: cover;
+}
+

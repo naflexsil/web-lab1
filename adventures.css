@@ -1,0 +1,48 @@
+.discover-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.discover-section h2 {
+    font-family: "ChangaOne-Regular";
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #434343;
+}
+
+.destination-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 0 100px;
+}
+
+.destination-card {
+    flex-basis: 22%;
+    text-align: center;
+}
+
+.destination-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.destination-card h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    font-family: "ChangaOne-Regular";
+    font-weight: 400;
+    color: #434343;
+}
+
+.destination-card a {
+    color: #9154FF;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.destination-card a:hover {
+    text-decoration: underline;
+}
