@@ -8,6 +8,7 @@
    <link href="home.css" type="text/css" rel="stylesheet">
    <link href="featured_destination.css" type="text/css" rel="stylesheet">
    <link href="adventures.css" type="text/css" rel="stylesheet">
+   <link href="styles/community_form.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -53,6 +54,7 @@
 
 
     <section class="discover-section">
+        <h1>JOIN OUR ADVENTURES</h1>
         <h2>Discover the world with us</h2>
         <div class="destination-grid">
             <div class="destination-card">
@@ -76,6 +78,34 @@
                 <a href="#">Discover</a>
             </div>
         </div>
+    </section>
+
+
+    <section class="suggestions-section">
+        <h1>LET'S BUILD A COMMUNITY</h1>
+        <h2>Join our next destination</h2>
+        <form class="suggestion-form">
+            <h2>Share your travels</h2>
+            <p>Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+            <input type="text" name="destination-name" placeholder="Destination Name">
+            <select name="country">
+                <option value="">Country of Destination</option>
+                <option value="Russia">Russia</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="USA">USA</option>
+            </select>
+            <input type="text" name="name" placeholder="Your Name">
+            <select name="shooting-category">
+                <option value="">Shooting category</option>
+                <option value="art">Art</option>
+                <option value="nature">Nature</option>
+                <option value="science">Science</option>
+                <option value="education">Education</option>
+            </select>
+            <textarea name="description" placeholder="Describe what kind of photos you want to focus on"></textarea>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 </body>
 </html>

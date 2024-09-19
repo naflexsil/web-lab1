@@ -1,0 +1,65 @@
+.suggestions-section {
+    text-align: center;
+    margin: 50px 0;
+    background-image: url('src/image/background_community.jpg'); 
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+}
+
+.suggestions-section h1 {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    color: #9154FF;
+    margin-bottom: 10px;
+}
+.suggestions-section h2 {
+    font-family: "ChangaOne-Regular";
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #434343;
+}
+
+.suggestion-form {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+}
+.suggestion-form h1 {
+    font-family: "ChangaOne-Regular";
+    font-size: 24px;
+}
+.suggestion-form p {
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+
+
+.suggestion-form input,
+.suggestion-form textarea,
+.suggestion-form select {
+    width: 100%;
+    padding: 15px; 
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.suggestion-form button {
+    padding: 10px 20px;
+    background-color: #9154FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.suggestion-form button:hover {
+    background-color: #7342cc;
+}
