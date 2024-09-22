@@ -1,0 +1,60 @@
+.swiss-story {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.swiss-story h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.swiss-story p {
+    font-size: 16px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.swiss-story-images-1 {
+    width: 220px;
+    height: 480px;
+    border-radius: 20px;
+}
+.swiss-story-image-2 {
+    width: 220px;
+    height: 262px;
+    border-radius: 20px;
+}
+.swiss-story-image-3 {
+    width: 220px;
+    height: 202px;
+    border-radius: 20px;
+}
+
+.highlight-quote {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.view-gallery {
+    background-color: #7B61FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.view-gallery:hover {
+    background-color: #6a52e5;
+}

@@ -1,0 +1,43 @@
+.highlights {
+    text-align: left; 
+    width: 912px;
+    margin: 0 auto;
+}
+
+.highlights h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: "ChangaOne-Regular";
+}
+
+.highlight-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.highlight-images img {
+    width: 292px;
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption {
+    align-items: center;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #777;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.disclaimer {
+    padding: 20px;
+    max-width: 904px;
+    margin: 40px auto;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    font-family: "Roboto";
+    color: #555;
+}

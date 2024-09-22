@@ -2,7 +2,8 @@ header {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    padding: 0 50px; 
+    margin-top: 10px;
+    padding: 0 80px; 
 }
 header .logo-talking {
     font-family: "Black Signature PERSONAL USE ONLY"; /* "Talking" */
@@ -22,6 +23,7 @@ header .menu ul {
     align-items: center;
     gap: 20px; 
     list-style: none;
+    font-family: "Roboto";
 }
 header .menu li a {
     text-decoration: none;

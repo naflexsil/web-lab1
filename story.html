@@ -9,8 +9,7 @@
     <link href="styles/popular_destination.css" rel="stylesheet">
     <link href="styles/swiss_story.css" rel="stylesheet">
     <link href="styles/hightlights.css" rel="stylesheet">
-
-    
+    <link href="styles/community_form.css" rel="stylesheet">
     <link href="styles/footer.css" type="text/css" rel="stylesheet">
 </head>
 <body>
@@ -33,11 +32,10 @@
 
 
     <section class="popular-destination">
-        <h2>Popular Destinations</h2>
-        <div class="destination-content">
-            <img src="src/image/featured_destination.jpg" alt="The Matterhorn">
-            <div class="video-button">
-                <img src="src/icons/video_play.png" alt="Play Video">
+        <div class="text-author-wrapper">
+            <div class="text-section">
+                <h1>POPULAR DESTINATION</h1>
+                <h2>Hello Switzerland!</h2>
             </div>
             <div class="author">
                 <img src="src/image/person.jpg" alt="Author">
@@ -47,36 +45,80 @@
                 </div>
             </div>
         </div>
-    </section>
-    
-
-    <section class="swiss-story">
-        <h2>Our Swiss adventure story</h2>
-        <p>Location, location, location! Zermatt Switzerland offers majestic landscapes...</p>
-        <div class="swiss-story-images">
-            <img src="src/image/switzerland1.jpg" alt="Switzerland Image 1">
-            <img src="src/image/switzerland2.jpg" alt="Switzerland Image 2">
-            <img src="src/image/switzerland3.jpg" alt="Switzerland Image 3">
+        <div class="destination-content">
+            <img src="src/image/featured_destination.jpg" alt="The Matterhorn">
+            <h3>Our Swiss adventure story</h3>
+            <p class="matterhorn-text">The Matterhorn</p>
+            <div class="video-button">
+                <img src="src/icons/video_play.png" alt="Play Video">
+            </div>
         </div>
+        <p class="location-description">Location location location! Zermatt Switzerland offers majestic landscapes that cannot be seen elsewhere. The Matterhorn for example. This peak is a sight to behold and seeing it upclose is more magical that we’ve ever imagined. ‘Want to enjoy a nice and cozy swiss breakfast! Well, Zermatt will never fail you.</p>
+    </section>    
+      
+    
+    <section class="swiss-story">
+        <div class="swiss-story-images">
+            <img src="src/image/switzerland1.jpg" alt="image-1">
+            <img src="src/image/switzerland2.jpg" alt="image-2">
+            <img src="src/image/switzerland3.jpg" alt="image-3">
+        </div>
+        <blockquote class="highlight-quote">
+            <p>"One of the best hikes we’ve done so far..."</p>
+            <p>As one of the alpine countries, landlocked Switzerland with her mountains has to compete not only with her neighbours but with other destinations.</p>
+            <button class="view-gallery">View full gallery</button>
+        </blockquote>
     </section>
     
 
-    <section class="hightlights">
+    <section class="highlights">
         <h2>Highlights</h2>
         <div class="highlight-images">
-            <div>
+            <figure>
                 <img src="src/image/barns.jpg" alt="Barns">
-                <p>The barns built in the 13th and 14th century</p>
-            </div>
-            <div>
+                <figcaption>The barns built in the 13th and 14th century</figcaption>
+            </figure>
+            <figure>
                 <img src="src/image/bernina_express.jpg" alt="Bernina Express">
-                <p>Riding the amazing Bernina Express</p>
-            </div>
-            <div>
+                <figcaption>Riding the amazing Bernina Express</figcaption>
+            </figure>
+            <figure>
                 <img src="src/image/matterhorn.jpg" alt="Matterhorn">
-                <p>The Matterhorn glacier cable car ride</p>
-            </div>
+                <figcaption>The Matterhorn glacier cable car ride</figcaption>
+            </figure>
         </div>
+        <div class="disclaimer">
+            <h3>Disclaimer</h3>
+            <p>The COVID-19 pandemic has dealt a severe blow to the tourism business in Switzerland. Although it is a minor position in the Swiss export balance, it is nevertheless of considerable importance for those regions of the country that attract domestic and foreign visitors. As a consequence of the lockdown measures, combined with close borders and travel bans, tourism collapsed and only briefly and partly recovered in summer. Its future is uncertain and depends on people’s (future guests’) attitudes and decisions as much as on the economy, political measures, and, of course, the progress of the pandemic.</p>
+        </div>
+    </section>
+
+
+    <section class="suggestions-section">
+        <h1>LET'S BUILD A COMMUNITY</h1>
+        <h2>Join our next destination</h2>
+        <form class="suggestion-form">
+            <h2>Share your travels</h2>
+            <p>Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+            <input type="text" name="destination-name" placeholder="Destination Name">
+            <select name="country">
+                <option value="" disabled selected>Country of Destination</option>
+                <option value="Russia">Russia</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="USA">USA</option>
+            </select>
+            <input type="text" name="name" placeholder="Your Name">
+            <select name="shooting-category">
+                <option value="" disabled selected>Shooting category</option>
+                <option value="art">Art</option>
+                <option value="nature">Nature</option>
+                <option value="science">Science</option>
+                <option value="education">Education</option>
+            </select>
+            <textarea name="description" placeholder="Describe what kind of photos you want to focus on"></textarea>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
     
