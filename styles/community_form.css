@@ -1,7 +1,7 @@
 .suggestions-section {
     text-align: center;
     margin: 50px 0;
-    background-image: url('src/image/background_community.jpg'); 
+    background-image: url('/src/image/background_community.jpg'); 
     background-size: cover;
     padding: 60px 0;
     position: relative;
@@ -26,6 +26,7 @@
     margin: 0 auto;
     max-width: 600px;
     padding: 30px;
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: left; 
@@ -37,6 +38,7 @@
 .suggestion-form p {
     font-family: "Roboto";
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 
@@ -51,7 +53,6 @@
     border-radius: 5px;
     box-sizing: border-box; 
 }
-
 .suggestion-form button {
     padding: 10px 20px;
     background-color: #9154FF;
@@ -59,6 +60,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 35%;
 }
 .suggestion-form button:hover {
     background-color: #7342cc;

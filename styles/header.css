@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 50px; 
+}
+header .logo-talking {
+    font-family: "Black Signature PERSONAL USE ONLY"; /* "Talking" */
+    font-size: 20px;
+    color: #434343;
+}
+header .logo h1 {
+    font-size: 30px; /* "Travel" */
+    font-weight: bold;
+    color: #9154ff;
+    line-height: 1.2;
+}
+
+
+header .menu ul {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    list-style: none;
+}
+header .menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+header nav.menu ul li a:hover {
+    color: #9154ff; /* цвет при наведении */
+}
+
+
+
+/* иконка поиска */
+header .search-icon::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("/src/icons/search.jpg");
+    background-size: cover;
+}
+/* иконка пользователя */
+header .user-icon::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("/src/icons/user.jpg"); 
+    background-size: cover;
+}

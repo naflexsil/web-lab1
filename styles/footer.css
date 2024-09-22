@@ -1,0 +1,33 @@
+footer {
+    padding: 20px 0;
+    font-family: "Roboto";
+    font-size: 14px;
+    display: flex;              
+    justify-content: space-between; 
+    align-items: center;  
+}
+
+footer p {
+    font-size: 14px;
+    margin-left: 80px;
+    color: #939EB4;
+    margin-bottom: 20px;
+}
+
+footer .footer-links {
+    display: flex;           
+    align-items: center;  
+    margin-right: 108px;   
+}
+footer .footer-links a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #939EB4;
+    line-height: 1; 
+}
+footer .footer-links a:last-child {
+    margin-right: 0; 
+}
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
