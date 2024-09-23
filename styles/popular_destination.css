@@ -1,8 +1,8 @@
 
 .popular-destination {
+    margin: 0 auto; 
     text-align: left; 
     width: 912px;
-    margin: 0 auto; 
 }
 
 .text-section h1 {
@@ -29,29 +29,30 @@
     align-items: center;
 }
 .author img {
+    margin-right: 10px;
     width: 36px;
     height: 36px;
-    margin-right: 10px;
 }
 .author-info .author-name {
+    margin-bottom: 5px;
     font-size: 20px;
     font-family: "Roboto";
-    margin-bottom: 5px;
 }
 .author-info .author-title {
     margin-top: 0;
     font-size: 16px;
-    color: #A2A7B1;
     font-family: "Roboto";
     font-style: italic;
+    color: #A2A7B1;
 }
 
 
 .destination-content {
-    position: relative;
     margin-top: 20px;
+    position: relative;
 }
 .destination-content h3 {
+    margin-top: 20px;
     font-size: 32px;
     font-family: "ChangaOne-Regular";
     color: #434343;
@@ -71,6 +72,7 @@
     color: white;
 }
 
+
 .video-button {
     position: absolute;
     top: 40%;
@@ -84,10 +86,10 @@
 }
 
 .location-description {
-    line-height: 1.6;
+    margin-top: 20px;
+    text-align: left;
     font-size: 16px;
     font-family: "Roboto";
     color: #555;
-    margin-top: 20px;
-    text-align: left;
+    line-height: 1.6;
 }

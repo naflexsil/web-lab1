@@ -1,66 +1,68 @@
 .suggestions-section {
-    text-align: center;
     margin: 50px 0;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
     background-image: url('/src/image/background_community.jpg'); 
     background-size: cover;
-    padding: 60px 0;
-    position: relative;
 }
-
 .suggestions-section h1 {
-    font-family: "Roboto";
+    margin-bottom: 10px;
     font-size: 18px;
+    font-family: "Roboto";
     font-weight: 700;
     color: #9154FF;
-    margin-bottom: 10px;
 }
 .suggestions-section h2 {
-    font-family: "ChangaOne-Regular";
-    font-size: 40px;
     margin-bottom: 30px;
+    font-size: 40px;
+    font-family: "ChangaOne-Regular";
     font-weight: 400;
     color: #434343;
 }
 
+
 .suggestion-form {
     margin: 0 auto;
-    max-width: 600px;
     padding: 30px;
+    text-align: left;
+    max-width: 600px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: left; 
 }
 .suggestion-form h1 {
-    font-family: "ChangaOne-Regular";
     font-size: 24px;
+    font-family: "ChangaOne-Regular";
 }
 .suggestion-form p {
-    font-family: "Roboto";
-    font-size: 18px;
     margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "Roboto";
 }
-
+.suggestion-form select option[disabled] {
+    display: none; 
+ }
 
 
 .suggestion-form input,
 .suggestion-form textarea,
 .suggestion-form select {
-    width: 100%;
-    padding: 15px; 
     margin: 10px 0;
+    padding: 15px; 
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box; 
 }
 .suggestion-form button {
     padding: 10px 20px;
+    width: 35%;
+    cursor: pointer;
     background-color: #9154FF;
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    width: 35%;
 }
 .suggestion-form button:hover {
     background-color: #7342cc;

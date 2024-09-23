@@ -1,28 +1,29 @@
 footer {
-    padding: 20px 0;
-    font-family: "Roboto";
-    font-size: 14px;
     display: flex;              
     justify-content: space-between; 
-    align-items: center;  
+    align-items: center;
+    font-size: 14px; 
+    font-family: "Roboto"; 
 }
+
 
 footer p {
-    font-size: 14px;
-    margin-left: 80px;
-    color: #939EB4;
     margin-bottom: 20px;
+    margin-left: 80px;
+    font-size: 14px;
+    color: #939EB4;
 }
 
+
 footer .footer-links {
+    margin-right: 108px;
     display: flex;           
     align-items: center;  
-    margin-right: 108px;   
 }
 footer .footer-links a {
-    text-decoration: none;
     margin-right: 20px;
     color: #939EB4;
+    text-decoration: none;
     line-height: 1; 
 }
 footer .footer-links a:last-child {

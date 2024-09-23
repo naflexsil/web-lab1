@@ -3,35 +3,35 @@
 }
 @font-face {
     font-family: "Black Signature PERSONAL USE ONLY";
-    src: url('./src/font/BlackSignaturePersonalUseOnlyRegular.otf');
+    src: url('/src/font/BlackSignaturePersonalUseOnlyRegular.otf');
 }
 @font-face {
     font-family: "ChangaOne-Regular";
-    src: url('./src/font/ChangaOne-Regular.ttf');
+    src: url('/src/font/ChangaOne-Regular.ttf');
 }
 @font-face {
     font-family: "Roboto";
-    src: url('./src/font/Roboto.ttf');
+    src: url('/src/font/Roboto.ttf');
 }
+
 
 /* основное */
 .hero-section {
-    background-image: url('src/image/background.jpg'); 
-    background-size: cover;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    background-image: url('/src/image/background.jpg'); 
+    background-size: cover;
+    height: 100vh;
 }
-
 .content {
-    max-width: 800px;
     margin-left: 100px;
     margin-top: 20px;
+    max-width: 800px;
 }
 h1 {
-    font-family: "ChangaOne-Regular";
     font-size: 72px;
+    font-family: "ChangaOne-Regular";
     font-weight: 400;
     line-height: 84px;
     color: #434343;
@@ -50,33 +50,33 @@ p {
     margin-top: 40px;
 }
 button {
-    padding: 15px 30px;
+    padding: 16px 30px;
+    font-size: 16px;
     border: none;
-    border-radius: 5px;
-    font-size: 15px;
+    border-radius: 6px;
 }
 .story-btn {
+    margin-right: 10px;
+    padding: 14px 10px 14px 10px;
+    width: 166px;
+    height: 46px;
     background-color: #9154ff;
     color: white;
-    margin-right: 10px;
-    width: 165.17px;
-    height: 46px;
-    padding: 13.5px 9.52px 13.5px 9.52px;
 }
 .highlights-btn::before {
-    content: "";
-    position: absolute;
     left: 10px; 
+    position: absolute;
+    content: "";
+    background-image: url('/src/icons/play.png'); 
     width: 24px;  
     height: 24px; 
-    background-image: url('src/icons/play.png'); 
     background-size: cover;
     background-repeat: no-repeat;
 }
 .highlights-btn {
-    position: relative;
     padding-left: 40px; 
     font-size: 16px;
+    position: relative;
     display: inline-flex;
     align-items: center;
     background-color: transparent;

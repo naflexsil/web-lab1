@@ -2,54 +2,52 @@
     text-align: center;
 }
 
+
 .discover-section h1 {
     text-align: center;
-    font-family: "Roboto";
     font-size: 18px;
+    font-family: "Roboto";
     font-weight: 700;
     color: #9154FF;
 }
-
 .discover-section h2 {
-    font-family: "ChangaOne-Regular";
-    font-size: 40px;
     margin-bottom: 30px;
+    font-size: 40px;
+    font-family: "ChangaOne-Regular";
     font-weight: 400;
     color: #434343;
 }
 
+
 .destination-grid {
-    display: flex;
-    justify-content: space-around;
     margin: 0 76px;
+    display: flex;
+    justify-content: space-around; 
 }
+
 
 .destination-card {
-    flex-basis: 22%;
     text-align: center;
+    flex-basis: 22%;
 }
-
 .destination-card img {
     width: 100%;
     border-radius: 10px;
 }
-
 .destination-card h3 {
     margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 24px;
     font-family: "ChangaOne-Regular";
     font-weight: 400;
     color: #434343;
-    margin-bottom: 10px;
 }
-
 .destination-card a {
-    color: #9154FF;
-    font-family: "Roboto";
     font-size: 16px;
+    font-family: "Roboto";
+    color: #9154FF;
     text-decoration: none;
 }
-
 .destination-card a:hover {
     text-decoration: underline;
 }

@@ -1,16 +1,20 @@
 .highlights {
+    margin: 0 auto;
     text-align: left; 
     width: 912px;
-    margin: 0 auto;
+}
+.highlights h2 {
+    margin-bottom: 20px;
+    font-size: 32px;    
+    font-family: "ChangaOne-Regular";
+    color: #333;
+    font-weight: 400;
+}
+.highlights p {
+    font-size: 16px;
+    font-family: "Roboto";
 }
 
-.highlights h2 {
-    font-size: 32px;
-    font-weight: 400;
-    color: #333;
-    margin-bottom: 20px;
-    font-family: "ChangaOne-Regular";
-}
 
 .highlight-images {
     display: flex;
@@ -23,21 +27,23 @@
     border-radius: 10px;
 }
 
+
 figcaption {
+    margin-top: 10px;
     align-items: center;
     font-size: 14px;
     font-family: "Roboto";
     color: #777;
     font-style: italic;
-    margin-top: 10px;
 }
+
 
 .disclaimer {
     padding: 20px;
-    max-width: 904px;
     margin: 40px auto;
+    max-width: 904px;
     font-size: 16px;
-    background-color: #f1f1f1;
     font-family: "Roboto";
+    background-color: #f1f1f1;
     color: #555;
 }

@@ -1,13 +1,14 @@
+
 header {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
     margin-top: 10px;
     padding: 0 80px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;   
 }
 header .logo-talking {
-    font-family: "Black Signature PERSONAL USE ONLY"; /* "Talking" */
     font-size: 20px;
+    font-family: "Black Signature PERSONAL USE ONLY"; /* "Talking" */
     color: #434343;
 }
 header .logo h1 {
@@ -26,8 +27,8 @@ header .menu ul {
     font-family: "Roboto";
 }
 header .menu li a {
-    text-decoration: none;
     font-size: 18px;
+    text-decoration: none;
     color: #000;
 }
 header nav.menu ul li a:hover {
@@ -35,22 +36,21 @@ header nav.menu ul li a:hover {
 }
 
 
-
 /* иконка поиска */
 header .search-icon::before {
-    content: "";
     display: inline-block;
     width: 24px;
     height: 24px;
+    content: "";
     background-image: url("/src/icons/search.jpg");
     background-size: cover;
 }
 /* иконка пользователя */
 header .user-icon::before {
-    content: "";
     display: inline-block;
     width: 24px;
     height: 24px;
+    content: "";
     background-image: url("/src/icons/user.jpg"); 
     background-size: cover;
 }

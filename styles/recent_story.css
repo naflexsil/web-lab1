@@ -4,20 +4,20 @@
     margin-left: 94px;
 }
 .recent-story h2 {
+    margin-bottom: 20px;
+    text-align: center;
     font-size: 18px;
     font-family: "Roboto";
-    color: #9154FF;
-    margin-bottom: 20px;
     font-weight: 700;
-    text-align: center;
+    color: #9154FF;  
 }
 .recent-story h3 {
+    margin-bottom: 20px;
+    text-align: center;
     font-size: 40px;
     font-family: "ChangaOne-Regular";
-    color: #434343;
-    margin-bottom: 20px;
     font-weight: 400;
-    text-align: center;
+    color: #434343;
 }
 
 
@@ -28,17 +28,17 @@
     background-color: #f9f9f9;
 }
 .story-image-main {
-    flex: 1;
     position: relative;
     margin-right: 20px;
+    flex: 1;
 }
 .story-image-main img {
     width: 560px;
     height: 360px;
 }
 .story-main .story-info {
-    padding: 20px;  
     margin-right: 20px;
+    padding: 20px;  
 }
 .story-main .story-info h4 {
     font-size: 24px;
@@ -46,10 +46,10 @@
     font-weight: 400;
 }
 .story-image-main p {
-    font-size: 16px;
     margin-top: 10px;
-    font-family: "Roboto";
     margin-right: 40px;
+    font-size: 16px;
+    font-family: "Roboto";
 }
 .story-main .play-icon {
     position: absolute;
@@ -69,11 +69,12 @@
 }
 .story-item p, .story-item a {
     display: flex; 
-    font-family: "Roboto";
     font-size: 16px;
+    font-family: "Roboto";
 }
 .story-item a {
     color: #6f3efb;
+    text-decoration: none;
 }
 .story-item {
     display: flex;
@@ -81,18 +82,18 @@
     background-color: #f9f9f9;
 }
 .story-item img {
+    margin-right: 16px;
     width: 200px;
     height: 128px;
     border-radius: 10px;
-    margin-right: 16px;
 }
 .story-item .story-info {
+    padding: 10px 11px 10px 11px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 600px;
     height: 148px;
-    padding: 10px 11px 10px 11px;
 }
 .story-item h4 {
     font-size: 24px;
