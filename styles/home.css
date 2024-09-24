@@ -60,6 +60,7 @@ button {
     padding: 14px 10px 14px 10px;
     width: 166px;
     height: 46px;
+    cursor: pointer;
     background-color: #9154ff;
     color: white;
 }
