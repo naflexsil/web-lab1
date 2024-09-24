@@ -5,10 +5,13 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Talking Travel</title>
-   <link href="home.css" type="text/css" rel="stylesheet">
-   <link href="featured_destination.css" type="text/css" rel="stylesheet">
-   <link href="adventures.css" type="text/css" rel="stylesheet">
+   <link href="styles/header.css" type="text/css" rel="stylesheet">
+   <link href="styles/home.css" type="text/css" rel="stylesheet">
+   <link href="styles/featured_destination.css" type="text/css" rel="stylesheet">
+   <link href="styles/adventures.css" type="text/css" rel="stylesheet">
    <link href="styles/community_form.css" type="text/css" rel="stylesheet">
+   <link href="styles/recent_story.css" type="text/css" rel="stylesheet">
+   <link href="styles/footer.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,10 +21,10 @@
         </div>
         <nav class="menu">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Story</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="story.html">Story</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <a href="#"><i class="search-icon"></i></a>
             <a href="#"><i class="user-icon"></i></a>
         </ul>
@@ -89,7 +92,7 @@
             <p>Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
             <input type="text" name="destination-name" placeholder="Destination Name">
             <select name="country">
-                <option value="">Country of Destination</option>
+                <option value="" disabled selected>Country of Destination</option>
                 <option value="Russia">Russia</option>
                 <option value="Japan">Japan</option>
                 <option value="Korea">Korea</option>
@@ -97,7 +100,7 @@
             </select>
             <input type="text" name="name" placeholder="Your Name">
             <select name="shooting-category">
-                <option value="">Shooting category</option>
+                <option value="" disabled selected>Shooting category</option>
                 <option value="art">Art</option>
                 <option value="nature">Nature</option>
                 <option value="science">Science</option>
@@ -107,5 +110,58 @@
             <button type="submit">Submit</button>
         </form>
     </section>
+
+
+    <section class="recent-story">
+    <h2>CATCH UP TO OUR POSTS</h2>
+    <h3>Recent story entries</h3>
+    <div class="story-main">
+        <div class="story-image-main">
+            <img src="src/image/zermatt.jpg" alt="Zermatt, Switzerland">
+            <div class="story-info">
+                <h4>Zermatt, Switzerland</h4>
+                <p>Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views of this peak...</p>
+                <a href="#"><img src="src/icons/video_play.png" class="play-icon"></a>
+            </div>
+        </div>
+        <div class="story-list">
+            <div class="story-item">
+                <img src="src/image/tuscany.jpg" alt="Tuscany, Italy">
+                <div class="story-info">
+                    <h4>Tuscany, Italy</h4>
+                    <p>The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape.</p>
+                    <a href="#">view full blog...</a>
+                </div>
+            </div>
+            <div class="story-item">
+                <img src="src/image/kyoto.jpg" alt="Kyoto, Japan">
+                <div class="story-info">
+                    <h4>Kyoto, Japan</h4>
+                    <p>Kyoto is well known for its temples, gardens, Shinto shrines, and wooden houses. It’s time to visit Tokyo.</p>
+                    <a href="#">view full blog...</a>
+                </div>
+            </div>
+            <div class="story-item">
+                <img src="src/image/norway.jpg" alt="Lofoten Islands, Norway">
+                <div class="story-info">
+                    <h4>Lofoten Islands, Norway</h4>
+                    <p>Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard.</p>
+                    <a href="#">view full blog...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+    <footer class="footer">
+        <p>© 2024, Talking Travel. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </footer>
 </body>
 </html>

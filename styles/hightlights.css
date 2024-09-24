@@ -1,0 +1,49 @@
+.highlights {
+    margin: 0 auto;
+    text-align: left; 
+    width: 912px;
+}
+.highlights h2 {
+    margin-bottom: 20px;
+    font-size: 32px;    
+    font-family: "ChangaOne-Regular";
+    color: #333;
+    font-weight: 400;
+}
+.highlights p {
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+
+.highlight-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.highlight-images img {
+    width: 292px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+figcaption {
+    margin-top: 10px;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #777;
+    font-style: italic;
+}
+
+
+.disclaimer {
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 904px;
+    font-size: 16px;
+    font-family: "Roboto";
+    background-color: #f1f1f1;
+    color: #555;
+}

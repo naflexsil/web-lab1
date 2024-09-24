@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+}
+@font-face {
+    font-family: "Black Signature PERSONAL USE ONLY";
+    src: url('/src/font/BlackSignaturePersonalUseOnlyRegular.otf');
+}
+@font-face {
+    font-family: "ChangaOne-Regular";
+    src: url('/src/font/ChangaOne-Regular.ttf');
+}
+@font-face {
+    font-family: "Roboto";
+    src: url('/src/font/Roboto.ttf');
+}
+
+
+/* основное */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('/src/image/background.jpg'); 
+    background-size: cover;
+    height: 100vh;
+}
+.content {
+    margin-left: 100px;
+    margin-top: 20px;
+    max-width: 800px;
+}
+h1 {
+    font-size: 72px;
+    font-family: "ChangaOne-Regular";
+    font-weight: 400;
+    line-height: 84px;
+    color: #434343;
+}
+h1 span {
+    color: #8A53FF; /* "talk" */
+}
+p {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #434343;
+}
+
+
+.buttons {
+    margin-top: 40px;
+}
+button {
+    padding: 16px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+.story-btn {
+    margin-right: 10px;
+    padding: 14px 10px 14px 10px;
+    width: 166px;
+    height: 46px;
+    cursor: pointer;
+    background-color: #9154ff;
+    color: white;
+}
+.highlights-btn::before {
+    left: 10px; 
+    position: absolute;
+    content: "";
+    background-image: url('/src/icons/play.png'); 
+    width: 24px;  
+    height: 24px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.highlights-btn {
+    padding-left: 40px; 
+    font-size: 16px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
